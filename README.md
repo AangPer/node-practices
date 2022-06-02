@@ -1,5 +1,7 @@
 # Notas:
 
+> Este es un **ejercicio** de Node.
+
 ```
 Opciones:
       --help     Muestra ayuda                                        [booleano]
