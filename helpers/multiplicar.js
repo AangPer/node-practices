@@ -21,11 +21,6 @@ const crearArchivo = async ({ base = 1, listar = false, limite = 10 }) => {
 
     listar && console.log(`${header}${consola}`);
 
-    // writeFile(`tabla-${base}.txt`, salida, (err) => {
-    //   if(err) throw err;
-    //   console.log(`tabla-${base}.txt creado`)
-    // })
-
     mkdir("./salida", { recursive: true }, (err) => {
       // => [Error: EPERM: operation not permitted, mkdir 'C:\']
     });
